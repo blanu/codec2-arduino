@@ -36,7 +36,7 @@ Connect the USB micro-B cable to the nRF52 board and hit the Upload button.
 
 Click the Serial Monitor button in the Arduino IDE.
 If all is going well, you should see lots of unreadable gibberish on your screen.
-Congratulations, this is audio!
+Congratulations, this is successfully decoded audio!
 
 ## Contributing
 
@@ -46,12 +46,12 @@ This is just a proof of concept. What should happen with this is that the libsam
 
 * **Dr. Brandon Wiley** - *Initial concept* - [Operator Foundation](https://OperatorFoundation.org/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 The codec2-arduino sketch is licensed under the GPL v3.0 license - see the [LICENSE.md](LICENSE.md) file for details
+
 Codec2 is licensed under the LGPL v2.1 license
+
 libsamplerate is licensed under the 2-clause BSD license
 
 ## Acknowledgments
