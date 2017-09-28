@@ -9,11 +9,8 @@ Now that Adafruit is providing a convenient Arduino-compatible board with the sa
 This is just a proof-of-concept. It contains the following components:
 
 1. Codec2 source - all of the .h and .c files are included here. The build system is not used.
-2. Pre-generated codebooks - taken from a previous build of Codec2
 3. libsamplerate - Required by Codec2. All of the .h and .c files are included here
-4. codec2-arduino.ino - A sample application
-
-Simply open the codec2-arduino.ino sketch in the Arduino IDE and hit the compile button. This will compile all of the files, including Codec2 and libsamplerate.
+4. codec2-arduino.ino - An example application
 
 ### Prerequisites
 
@@ -24,12 +21,20 @@ You will also need a USB micro-B cable to program the nRF52 board and some way t
 
 ### Installing
 
+Install the Codec2 library using the Library Manager in the Arduino IDE.
+
+Open the example application using the Sketchbook -> Examples menu.
+
 Format the SD card to use FAT32.
-For testing, you will need a Codec2 file using mode 700B. Place this on the SD card in the root directory and name is TEST700B.C2 and place the SD card in the Adalogger.
+
+For testing, you will need a Codec2 file using mode 700B. You can find one in the extras/ directory. Place this on the SD card in the root directory. It must be named TEST700B.C2.
+
+Place the SD card in the Adalogger.
 
 Follow the [Adafruit tutorial](https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide) to get your nRF52 board set up.
 
-Open the codec2-arduino.ino sketch in the Arduino IDE.
+Open the example application using the Sketchbook -> Examples menu.
+
 Connect the USB micro-B cable to the nRF52 board and hit the Upload button.
 
 ## Testing
@@ -40,7 +45,7 @@ Congratulations, this is successfully decoded audio!
 
 ## Contributing
 
-This is just a proof of concept. What should happen with this is that the libsamplerate and codec2 parts are turned into Arduino packages. If you would be interested in working on that, let me know.
+This is just a proof of concept. Better examples would be great to have. If you would be interested in working on that, let me know.
 
 ## Authors
 
