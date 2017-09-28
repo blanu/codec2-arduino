@@ -23,7 +23,7 @@ You will also need a USB micro-B cable to program the nRF52 board and some way t
 
 Install the Codec2 library using the Library Manager in the Arduino IDE.
 
-Open the example application using the Sketchbook -> Examples menu.
+Open the example application using the Examples -> Codec2 menu.
 
 Format the SD card to use FAT32.
 
